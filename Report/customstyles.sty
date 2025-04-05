@@ -11,18 +11,21 @@
 \definecolor{darkblue}{rgb}{0.1, 0.1, 0.7}
 \definecolor{lightred}{RGB}{250, 207, 207}
 \definecolor{brightpink}{rgb}{1.0, 0.0, 0.5}
+\definecolor{maroon}{rgb}{0.5, 0.0, 0.0}
+\definecolor{lightblue}{rgb}{0.678, 0.847, 0.902}
+
 
 % Listings settings
 \RequirePackage{listingstyles}
 
 % Hyperlinks
-\RequirePackage{hyperref}
-\hypersetup{
+\RequirePackage[
     colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=cyan,
-}
+    linkcolor=RedOrange,  % Crisp and professional for internal links
+    urlcolor=blue,        % Modern and eye-catching for URLs
+    pdfborder={0 0 0}     % No border around links
+]{hyperref}
+
 
 % TOC settings
 \RequirePackage{tocloft}
