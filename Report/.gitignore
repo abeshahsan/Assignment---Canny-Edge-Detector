@@ -1,0 +1,54 @@
+# LaTeX intermediate and log files
+*.aux
+*.bbl
+*.blg
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.gz
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.bcf
+*.run.xml
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.ilg
+*.ind
+
+# PDF output files (if you don't want to include them)
+# *.pdf
+
+# LaTeX temporary files
+*.tmp
+*.bak
+
+# Other temporary editor or system files
+*.swp
+*.DS_Store
+*.lock
+Thumbs.db
+
+# Files related to specific LaTeX tools/editors
+# For LaTeX Workshop (VS Code extension)
+.latexmkrc
+
+# For Mac TeXShop
+*.synctex(busy)
+*.synctex.gz(busy)
+
+# For Overleaf collaboration files
+*.tex.bak
+
+*.bbl-SAVE-ERROR

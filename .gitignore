@@ -1,0 +1,13 @@
+**/.vscode/
+**/*.synctex.gz/
+**/*.log
+**/*.bbl
+**/*.aux
+**/*.out
+**/*.toc
+**/*.pdf
+**/*.tmp
+
+# **/figures/
+**/__pycache__/
+**/*.ipynb_checkpoints/

@@ -1,0 +1,45 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{customstyles}[Custom styles for lab reports]
+
+% Custom color definitions
+\RequirePackage[dvipsnames]{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{darkgreen}{rgb}{.1,.5,.1}
+\definecolor{darkblue}{rgb}{0.1, 0.1, 0.7}
+\definecolor{lightred}{RGB}{250, 207, 207}
+\definecolor{brightpink}{rgb}{1.0, 0.0, 0.5}
+
+% Listings settings
+\RequirePackage{listingstyles}
+
+% Hyperlinks
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+% TOC settings
+\RequirePackage{tocloft}
+
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\newcommand{\customtableofcontents}{
+    {
+            \hypersetup{linkcolor=brightpink}
+            \tableofcontents
+        }
+}
+
+
+\RequirePackage{stix2}
+
+\RequirePackage[backend=biber, backref=true]{biblatex}
+\addbibresource{citation.bib}
